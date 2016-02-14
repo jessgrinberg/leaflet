@@ -1,0 +1,37 @@
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css" />
+
+		<link rel="stylesheet" type="text/css" href="https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css" />
+		<link rel="stylesheet" type="text/css" href="https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css" />
+		<link rel="stylesheet" type="text/css" href="maps/style.css" />
+	 </head>
+	 <body>
+			<div class="card">
+				<input class="searchField" />
+				<ul class="liste-brands"></ul>
+			</div>
+			<div id="map"></div>
+
+		<!-- 	<div id="button">Click me</div> -->
+	<!-- 	<button>Click me</button> -->
+	<form>
+		<label><input type="radio" data-map="mapbox.streets" name="sandwich" />Sat</label>
+		<br>
+		<label><input type="radio" data-map="mapbox.outdoors" name="sandwich" />Street</label>
+		<br>
+		<label><input type="radio" data-map="mapbox.pirates" checked name="sandwich" />pirates</label>
+		<br>
+		<label><input type="radio" data-map="mapbox.wheatpaste" name="sandwich" />wheatpaste</label>
+</form>
+
+
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+			<script src="https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js"></script>
+			<script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js"></script>
+			<script src="maps/leaf-demo.js"></script>
+			<script src="http://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+			<script src="maps/algolia.js"></script>
+	 </body>
+</html>
